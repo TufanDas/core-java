@@ -83,3 +83,6 @@ It helps model “part-of” relationships like Car → Engine or Laptop → Key
 Always create the outer object before creating the inner one.
 It can access private members of the outer class directly.
 
+
+
+
