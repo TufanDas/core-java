@@ -27,7 +27,16 @@ replay_pid*
 out/
 about_MemberInnerClass
 aboutStaticNestedClass
+innerClasses/aboutAnnonymousInnerClass
+innerClasses/memberInnerClass/withoutMemberInnerClass/
+innerClasses/anonymousInnerClass/withoutAnonymousClass
 
 EVCar.java
 finalkeyword/EVCar.java
-innerClasses/memberInnerClass/withoutMemberInnerClass/
+
+
+innerClasses/anonymousInnerClass/withoutAnonymousClass/
+innerClasses/anonymousInnerClass/withoutAnonymousClass/CreditCard.java
+innerClasses/anonymousInnerClass/withoutAnonymousClass/Payment.java
+innerClasses/anonymousInnerClass/withoutAnonymousClass/ShoppingCart.java
+innerClasses/anonymousInnerClass/withoutAnonymousClass/Test.java
