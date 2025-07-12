@@ -26,3 +26,8 @@ replay_pid*
 .idea/
 out/
 about_MemberInnerClass
+aboutStaticNestedClass
+
+EVCar.java
+finalkeyword/EVCar.java
+innerClasses/memberInnerClass/withoutMemberInnerClass/
