@@ -7,9 +7,24 @@ public class StackTrace {
 
         try {
             level1();
-        }catch (ArrayIndexOutOfBoundsException x){
-            System.out.println("Exceptions handled.");
+        } catch (ArrayIndexOutOfBoundsException x) {
+            // If an ArrayIndexOutOfBoundsException occurs, control jumps here
+
+            // Print the complete stack trace to standard error (helps in debugging)
+            x.printStackTrace();
+
+            // Informing that exception was handled
+            System.out.println("Exception handled.");
             System.out.println("Stack Traced.");
+
+            // Now printing the stack trace details manually for deeper inspection
+            StackTraceElement[] stackTrace = x.getStackTrace();
+
+            // Looping through each element in the stack trace array
+            for (int i = 0; i < stackTrace.length; i++) {
+                // Each element gives you the class name, method name, and line number where the error passed through
+                System.out.println(stackTrace[i]);
+            }
         }
     }
     static void level3(){
