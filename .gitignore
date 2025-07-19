@@ -39,3 +39,5 @@ innerClasses/anonymousInnerClass/withoutAnonymousClass/*.java
 
 innerClasses/aboutLocalInnerClass
 ExceptionsHandling/*.txt
+
+enums/*.txt
