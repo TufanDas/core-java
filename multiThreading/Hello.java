@@ -5,8 +5,10 @@ public class Hello implements Runnable {
 
     // This method is called when the thread is started
     public void run() {
-        System.out.println(Thread.currentThread().getName());
-        System.out.println("Hello......");
+        for (int i = 0; i < 1000; i++) {
+            System.out.println(Thread.currentThread().getName());
+            System.out.println("Hello......");
+        }
     }
 }
 
