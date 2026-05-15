@@ -43,5 +43,6 @@ ExceptionsHandling/*.txt
 enums/*.txt
 multiThreading/*.txt
 CollectionFrameworks/ArrayList1.java
-
+core-java.iml
 multiThreading/Locking/ReentrantLockMethods.java
+Docs/
