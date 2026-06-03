@@ -1,6 +1,4 @@
-package collection_framework.Vectors;
-
-import java.util.Vector;
+package collection_framework.List.Vectors;
 
 import java.util.Vector;
 
