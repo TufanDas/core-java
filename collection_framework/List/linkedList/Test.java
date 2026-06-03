@@ -1,4 +1,4 @@
-package collection_framework.linkedList;
+package collection_framework.List.linkedList;
 
 import java.util.Arrays;
 import java.util.Iterator;
